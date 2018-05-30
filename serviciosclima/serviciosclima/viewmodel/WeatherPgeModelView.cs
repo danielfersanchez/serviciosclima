@@ -157,7 +157,7 @@ namespace serviciosclima.viewmodel
             UltimaActualizacion= weatherModel.Query.Results.Channel.Item.Condition.Date;
             Temperatura = weatherModel.Query.Results.Channel.Item.Condition.Temp;
             Clima = weatherModel.Query.Results.Channel.Item.Condition.Text;
-            var imglink = $"http://l.yimg.com/a/i/us/we/52/{weatherModel.Query.Results.Channel.Item.Condition.text}.gif";
+            var imglink = $"http://l.yimg.com/a/i/us/we/52/{weatherModel.Query.Results.Channel.Item.Condition.Code}.gif";
             Imagen = ImageSource.FromUri(new Uri(imglink));
 
         }

@@ -6,7 +6,7 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <local:WeatherPgeModelView></local:WeatherPgeModelView>
+            <local:WeatherPgeModelView x:Key="WeatherPgeModelView"></local:WeatherPgeModelView>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
@@ -34,11 +34,11 @@
                 <Label Text="Region" Font="Bold"></Label>
                 <Label Text="{Binding Region}"></Label>
                 <Label Text="Ultima Actualizacion" FontAttributes="Bold"></Label>
-                <Label Text="{UltimaActualizacion}"></Label>
+                <Label Text="{Binding UltimaActualizacion}"></Label>
                 <Label Text="Temperatura"></Label>
-                <Label Text="{Temperatura}"></Label>
+                <Label Text="{Binding Temperatura}"></Label>
                 <Label Text="Clima"></Label>
-                <Label Text="{Clima}"></Label>
+                <Label Text="{Binding Clima}"></Label>
             </Grid>
             
             
