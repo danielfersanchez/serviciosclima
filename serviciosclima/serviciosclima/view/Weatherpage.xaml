@@ -30,8 +30,15 @@
                 <Label Text="Ubicacion" FontAttributes="Bold"></Label>
                 <Label Text="{Binding Ubicacion}"></Label>
                 <Label Text="Pais" FontAttributes="Bold"></Label>
-                <Label Text="{Binding Pais}"></Label>                
-                
+                <Label Text="{Binding Pais}"></Label>
+                <Label Text="Region" Font="Bold"></Label>
+                <Label Text="{Binding Region}"></Label>
+                <Label Text="Ultima Actualizacion" FontAttributes="Bold"></Label>
+                <Label Text="{UltimaActualizacion}"></Label>
+                <Label Text="Temperatura"></Label>
+                <Label Text="{Temperatura}"></Label>
+                <Label Text="Clima"></Label>
+                <Label Text="{Clima}"></Label>
             </Grid>
             
             
