@@ -13,7 +13,7 @@ namespace serviciosclima
 		{
 			InitializeComponent();
 
-			MainPage = new serviciosclima.MainPage();
+			MainPage = new serviciosclima.view.Weatherpage();
 		}
 
 		protected override void OnStart ()
